@@ -1,14 +1,12 @@
 {
   "name": "minimal-react-boilerplate",
-  "jest": {
-    "testURL": "http://localhost/"
-  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
-    "test": "mocha --require @babel/register ./test/setup.js 'src/**/*spec.js'"
+    "test": "mocha --require @babel/register ./test/setup.js 'src/**/*spec.js'",
+    "test:watch": "npm run test -- --watch"
   },
   "keywords": [],
   "author": "",
@@ -39,6 +37,9 @@
     "babel/core": "^7.3.3",
     "enzyme-adapter-react-16": "^1.9.1",
     "react": "^16.8.3",
-    "react-dom": "^16.8.3"
+    "react-dom": "^16.8.3",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6"
   }
 }
