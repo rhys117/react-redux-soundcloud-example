@@ -1,2 +1,2 @@
-Follow along of minimal react setup found at:
-https://www.robinwieruch.de/minimal-react-webpack-babel-setup/
+Follow along of react-redux tutorial found at:
+https://www.robinwieruch.de/the-soundcloud-client-in-react-redux/#aProjectFromScratch
